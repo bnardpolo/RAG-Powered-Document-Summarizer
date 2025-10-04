@@ -1,6 +1,6 @@
 Introduction
 
-This app lets you upload DOCX or PDF files, review them, and get clear summaries. It uses a retrieval step to find the most relevant passages and a small summarizer to write the final answer. The goal is simple. Make it easy to search documents, read the right parts, and save what you learned.
+This project lets you upload DOCX or PDF files, review them, and get clear summaries. It uses a retrieval step to find the most relevant passages and a small summarizer to write the final answer. The goal is simple. Make it easy to search documents, read the right parts, and save what you learned.
 
 Key Features
 
