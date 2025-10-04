@@ -73,3 +73,10 @@ Ask a question or request a summary
 Review the answer, the supporting passages, and the metrics
 
 Save results to the database and optionally to S3
+Conclusion
+
+This app turns document review into a simple, repeatable workflow. You upload DOCX or PDF files, the system finds the right passages, and the summarizer produces clear answers with sources. Storage and tracking are built in. You can keep everything local in SQLite or send uploads, summaries, and metrics to S3. If you use MLflow, runs and artifacts are logged so results are easy to compare.
+
+Quality holds up because you can tune chunk size, overlap, and top k. If recall needs a lift, add a reranker and adjust thresholds. The interface stays simple while the pipeline does the heavy lifting behind the scenes.
+
+If you want to extend it, add OCR for image heavy PDFs, role based access for team use, and a small API so other apps can call the same pipeline. This keeps the project practical for demos today and ready for production later.
